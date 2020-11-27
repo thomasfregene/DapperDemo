@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "R4vzowRIKnwpN4FPODVh6HB2o2zFfngaCTtdPEYb5fKMmAD5UyB3e20X+55tEI6416d3nC7jsJtY5D7YFe/WYA==",
+  "dgSpecHash": "45tDFCF9toSE2DN7Uxg311I/Ybj3z3V+LbYbfEpXUOFYV/SYWoA9SCuV4QA41uvOa98yNPkSAuallAUc0XVZvg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\DapperProjects\\DapperDemo\\DapperDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fregene thomas\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.9\\microsoft.aspnetcore.mvc.razor.extensions.3.1.9.nupkg.sha512",
@@ -129,7 +130,7 @@
     "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.emit\\4.3.0\\system.reflection.emit.4.3.0.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
-    "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.extensions\\4.3.0\\system.reflection.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\fregene thomas\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
