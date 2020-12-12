@@ -43,12 +43,17 @@ namespace DapperDemo.Respository
 
         public void Remove(int id)
         {
-            throw new NotImplementedException();
+            var sql = "DELETE FROM Companies WHERE CompanyId = @Id";
+            db.Execute(sql, id);
         }
 
         public Company Update(Company company)
         {
-            throw new NotImplementedException();
+            //parameter name must be same as property name if company obj variable is used
+            var sql = "UPDATE Companies SET Name = @Name, Address = @Address, City = @City, State = @State, PostalCode = @PostalCode"
+            + "WHERE CompanyId = @CompanyId ";
+            db.Execute(sql, company);
+            return company;
         }
     }
 }
