@@ -22,8 +22,8 @@ namespace DapperDemo.Respository
         public Company Add(Company company)
         {
             //returns the CompanyId 
-            var sql = "INSERT INTO Companies(Name, Address, City, State, PostalCode) VALUES(@Name, @Address, @City, @State, @PostalCode);"
-                        + "SELECT CAST(SCOPE_IDENTITY() AS int);";
+            var sql = @"INSERT INTO Companies(Name, Address, City, State, PostalCode) VALUES(@Name, @Address, @City, @State, @PostalCode);
+                        SELECT CAST(SCOPE_IDENTITY() AS int);";
             var id = db.Query<int>(sql, company).Single();
             company.CompanyId = id;
             return company;
@@ -43,15 +43,17 @@ namespace DapperDemo.Respository
 
         public void Remove(int id)
         {
-            var sql = "DELETE FROM Companies WHERE CompanyId = @Id";
-            db.Execute(sql, id);
+            var sql = "DELETE FROM Companies WHERE CompanyId = @id";
+            //DynamicParameters compId = new DynamicParameters();
+            //compId.Add("@id",id);
+            db.Execute(sql, new { id});
         }
 
         public Company Update(Company company)
         {
             //parameter name must be same as property name if company obj variable is used
-            var sql = "UPDATE Companies SET Name = @Name, Address = @Address, City = @City, State = @State, PostalCode = @PostalCode"
-            + "WHERE CompanyId = @CompanyId ";
+            var sql = @"UPDATE Companies SET Name = @Name, Address = @Address, City = @City, State = @State, PostalCode = @PostalCode
+                        WHERE CompanyId = @CompanyId ";
             db.Execute(sql, company);
             return company;
         }

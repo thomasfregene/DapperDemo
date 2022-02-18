@@ -9049,19 +9049,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fregene thomas\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\DapperProjects\\DapperDemo\\DapperDemo.csproj",
+      "projectUniqueName": "C:\\Projects\\DapperDemo\\DapperDemo.csproj",
       "projectName": "DapperDemo",
-      "projectPath": "C:\\Projects\\DapperProjects\\DapperDemo\\DapperDemo.csproj",
-      "packagesPath": "C:\\Users\\fregene thomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\DapperProjects\\DapperDemo\\obj\\",
+      "projectPath": "C:\\Projects\\DapperDemo\\DapperDemo.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\DapperDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fregene thomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9073,6 +9073,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -9084,6 +9085,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Dapper": {
             "target": "Package",
@@ -9134,7 +9136,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
